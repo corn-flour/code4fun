@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contacts a{
+    text-decoration:none;
+	border-bottom:solid #FF8E60 2px;
+    color: #FF8E60;
+}
+
+#contacts a:hover{
+    color: #5B9BD4;
+	border-bottom:solid #5B9BD4 2px;
+}
+
+#whole{
+    overflow:auto;
+	margin:100px 25% 20px 25%;
+}
+#contacts{
+	float:left;
+	margin: 0% 0% 0% 5%;
+}
+
+#form{
+	float:right;
+    vertical-align: middle;
+}
+
+.clubname{
+    font-size:30px;
+}
+
+#sendbox {
+    padding-top: 5px;
+    margin:auto;
+    width: 100%;
+    text-align: center;
+}
+
