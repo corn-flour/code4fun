@@ -3,66 +3,66 @@
 
 
 #main {
-	margin-top: 100px;
-	overflow:auto;
+    margin-top: 100px;
+    overflow: auto;
 }
 
 
 #memberlist{
-	width: 900px;
-	margin: auto;
+    width: 900px;
+    margin: auto;
 }
 
 /*each row of members in member page*/
 .line {
-	overflow: auto;
+    overflow: auto;
 }
 
 /*each member's image, name and title*/
 .cell {
-	float:left;
-	margin-right: 10px;
-	margin-left: 10px;
-	width: 30%
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 30%
 }
 
 /*member's image*/
 .imgcell {
-	width: 150px;
-	height: 150px;
-	margin:auto;
+    width: 150px;
+    height: 150px;
+    margin: auto;
 }
 .imgbox {
-	width:150px;
-	margin:auto;
+    width: 150px;
+    margin: auto;
 }
 
 /*member's name*/
 .name {
-	text-align:center;
+    text-align: center;
 }
 
 /*member's title*/
 .title {
-	text-align:center;
-	color:#666;
+    text-align: center;
+    color: #666;
 }
 
 @media only screen and (max-width:1000px) {
-	[id = "memberlist"]{
-		width: 100%!important; 
-	}
-	[class = "cell"]{
-		width: 100%;
-		margin:0px;
-		overflow:auto;
-		float:none;
-	}
-	[class = "imgbox"]{
-	width: 400px;
-	}
-	[class = "imgcell"] {
-		width: 400px;
-		height: 400px;
-	}
+    [id = "memberlist"]{
+        width: 100%!important; 
+    }
+    [class = "cell"]{
+        width: 100%;
+        margin: 0px;
+        overflow: auto;
+        float: none;
+    }
+    [class = "imgbox"]{
+        width: 400px;
+    }
+    [class = "imgcell"] {
+        width: 400px;
+        height: 400px;
+    }
 }
