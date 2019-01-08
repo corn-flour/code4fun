@@ -3,120 +3,116 @@
 
 /* everthing*/
 body {
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	background-color:#F2F2F2;
-	color: #272727;
-	margin:0px;
-	display:block;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+    color: #272727;
+    margin: 0px;
+    display: block;
 }
 /*=================================================Navbar===============================================================*/
 nav {
-	top: 0px;
-	background-color:rgba(39,39,39,.8);
-	position:fixed;
-	width: 100%;
-	overflow:auto;
-	z-index: 1000;
+    top: 0px;
+    background-color: rgba(39,39,39,.8);
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+    z-index: 1000;
 }
 /*text buttons in nav bar*/
 nav a {
-	vertical-align:middle;
-	text-decoration:none;
-	color:#F2F2F2;
-	padding: 5px;
-	font-size: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #F2F2F2;
+    padding: 5px;
+    font-size: 20px;
 }
 
 /*hovering in text nav bar*/
 nav a:hover {
-	border-bottom: solid #5B9BD4 2px;
+    border-bottom: solid #5B9BD4 2px;
 }
 /*logo*/
 nav img {
-	width: 60px;
-	height: 60px;
-	vertical-align:middle;
-	margin: 5px;
-	display:inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    margin: 5px;
+    display: inline-block;
 }
 
 .logo:hover {
-	border-bottom:none;
+    border-bottom: none;
 }
 
 #selected {
-	border-bottom: solid  #FF8E60 2px;
+    border-bottom: solid #FF8E60 2px;
 }
 
 /*h1 and h2*/
 h2 {
-	text-align:center;
-	font-size:50px;
-	margin-top: 20px;
-	color:#666;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color: #666;
 }
 h1 {
-	text-align:center;
-	font-size: 50px;
-	color:#272727;
-	margin-bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #272727;
+    margin-bottom: 0px;
 }
 
 /*decoration line used after h1 tag in most pages*/
 #decoline {
-	width: 150px;
-	border: solid #ff8e60 5px;
-	margin-bottom: 100px;
-	margin-top: 20px;
+    width: 150px;
+    border: solid #ff8e60 5px;
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 
 /*2 columns, used in <name>.html and activities.html */
 .column1 {
-	float:left;
-	width: 40%;
-	text-align:center;
-	padding:25px;
-	box-sizing:border-box;
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
 }
 
 
 .column2 {
-	float:left;
-	width: 50%;
-	padding:25px;
-	box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 25px;
+    box-sizing: border-box;
 }
 
 textarea {
-	width: 500px;
+    width: 500px;
     height: 200px;
 }
 
 .inputbox {
-	border:none;
-	background: transparent;
-	box-shadow:none;
-	border-bottom: solid #272727 1px;
-	margin-bottom: 20px;
-	padding: 6px 12px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    border-bottom: solid #272727 1px;
+    margin-bottom: 20px;
+    padding: 6px 12px;
 }
 
 .inputbox:focus {
-	outline: 0;
+    outline: 0;
 }
 
 /*=================================================================Footer===========================================================================*/
 #line {
-	width:70%;
-	margin:auto;
-	
+    width: 70%;
+    margin: auto;
 }
 footer {
-	margin-top: 20px;
-	width:100%;
-	text-align:center;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
 }
-
-
-
