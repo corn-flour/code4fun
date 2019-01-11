@@ -36,3 +36,24 @@
     width: 100%;
     text-align: center;
 }
+
+footer{
+	background-color: #FF8E41;
+	color: #402310;
+	width: 100%;
+	overflow:auto;
+	text-align: center;
+	border-top-style:dashed;
+	border-bottom-style: solid;
+	border-color: black;
+}
+
+aside{
+	width: 33.3%;
+	float: left;
+}
+
+aside h3{
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
