@@ -43,8 +43,7 @@ nav img {
 .logo:hover {
     border-bottom: none;
 }
-
-#selected {
+.selected {
     border-bottom: solid #FF8E60 2px;
 }
 
