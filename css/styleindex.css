@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-#topsection {
+.top-section {
     overflow: auto;
     width: 100vw;
     height: 100vh;
@@ -9,22 +9,22 @@
     background-size: cover;
 }
 
-#welcome {
+.top-section__overlay-text {
     width: 100%;
     z-index: 10;
     position: relative;
     padding-top: 10%;
 }
-#welcome h1{
+.top-section__overlay-text h1{
     color: #F2F2F2;
     font-size: 70px;
 }
 
-#welcome h2 {
+.top-section__overlay-text h2 {
     color: #F2F2F2;
     font-size: 50px;
 }
-#arrow {
+.top-section__overlay-text__arrow{
     z-index: 10;
     width: 126px;
     vertical-align: middle;
@@ -32,7 +32,7 @@
     padding-top: 15%;
 }
 
-.background {
+.top-section--background {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC"), url("../images/indexplaceholder.png");
     background-repeat: repeat;
     background-blend-mode: color-dodge;
@@ -45,7 +45,7 @@
     z-index: 1;
 }
 
-#aboutus {
+.about-us {
     margin: auto;
     width: 800px;
     position: relative;
@@ -90,7 +90,7 @@
 }
 
 @media only screen and (max-width:1000px) {
-    [id = "aboutus"] {
+    [class = "about-us"] {
         width: 100%!important;
     }
     [class = "column1home"] {
