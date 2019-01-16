@@ -63,7 +63,7 @@ h1 {
 }
 
 /*decoration line used after h1 tag in most pages*/
-#decoline {
+.decoline {
     width: 150px;
     border: solid #ff8e60 5px;
     margin-bottom: 100px;
