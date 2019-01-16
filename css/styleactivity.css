@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*subnav for activity*/
-#subnav {
+.subnav {
     padding: 10px 0px 10px 70px;
     top: 70px;
     position: fixed;
@@ -10,13 +10,13 @@
     width: 100%;
     z-index: 1000;
 }
-#subnav a {
+.subnav a {
     text-decoration: none;
     color: rgb(219, 216, 216);
     padding: 7px;
     font-size: 15px;
 }
-#subnav a:hover {
+.subnav a:hover {
     border-bottom: solid #5B9BD4 2px;
 }
 
