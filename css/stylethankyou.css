@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+#response {
+	margin: auto;
+	margin-top: 100px;
+	width: 1000px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#response a {
+	text-decoration: none;
+	color: #FF8E60;
+	font-size:20px;
+}
+#response a:hover {
+	color: #5B9BD4;
+}
+
