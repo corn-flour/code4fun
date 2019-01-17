@@ -1,12 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
-#memberinfo {
+.member-box {
     margin-top: 100px;
     overflow: auto;
 }
 
-#info {
+.member-box__info-wrapper {
     margin: 0% 20% 0% 20%;
     overflow: auto;
 }
@@ -38,18 +38,18 @@ aside h3{
     font-size: 25px;
 }
 
-#buttons {
+.member-box__buttons {
     margin: 2% 20% 2% 20%;
     text-align: center;
 }
-#buttons a {
+.member-box__buttons a {
     text-decoration: none;
     color: #6A6666;
     font-size: 18px;
     margin: 0px 10px 0px 0px
 }
 
-#lkin {
+.lkin {
     width: 50px;
     height: 50px;
 }
