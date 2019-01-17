@@ -31,7 +31,7 @@
     width: 150px;
     height: 150px;
     margin: auto;
-    border: solid #ff8e60 8px;
+    border: solid #ff8e60 5px;
     border-radius: 50%;
     box-sizing: border-box;
 }
