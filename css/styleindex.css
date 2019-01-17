@@ -32,7 +32,7 @@
     padding-top: 15%;
 }
 
-.top-section--background {
+.top-section__background {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC"), url("../images/indexplaceholder.png");
     background-repeat: repeat;
     background-blend-mode: color-dodge;
