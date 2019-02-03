@@ -29,7 +29,7 @@ nav a {
 
 /*hovering in text nav bar*/
 nav a:hover {
-    border-bottom: solid #5B9BD4 2px;
+    border-bottom: #5B9BD4 2px;
 }
 /*logo*/
 nav img {
